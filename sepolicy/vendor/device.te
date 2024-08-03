@@ -1,0 +1,2 @@
+# Sensors
+type virtual_sensor_device, dev_type;

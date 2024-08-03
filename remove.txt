@@ -1,0 +1,4 @@
+rm -rf /home/stim/rising/vendor/realme/salaa
+rm -rf /home/stim/rising/kernel/realme/mt6785
+rm -rf /home/stim/rising/device/mediatek/sepolicy_vndr
+rm -rf /home/stim/rising/hardware/mediatek

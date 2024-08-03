@@ -1,0 +1,2 @@
+# CommonDcs
+type hal_commondcs_hwservice, hwservice_manager_type;

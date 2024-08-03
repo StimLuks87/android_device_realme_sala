@@ -1,0 +1,12 @@
+  {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "android_kernel_realme_mt6785",
+    "target_path": "kernel/realme/mt6785"
+  },
+  {
+    "repository": "android_vendor_realme_salaa",
+    "target_path": "vendor/realme/salaa"
+  }

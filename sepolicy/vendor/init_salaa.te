@@ -1,0 +1,9 @@
+type init_salaa, domain;
+type init_salaa_exec, vendor_file_type, exec_type, file_type;
+
+init_daemon_domain(init_salaa)
+
+set_prop(init_salaa, vendor_device_prop)
+
+allow init_salaa proc_nfc_chipset:file r_file_perms;
+allow init_salaa proc_oppo_operator:file r_file_perms;
