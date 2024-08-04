@@ -8,11 +8,8 @@ persist.adb.nonblocking_ffs=1
 ro.apk_verity.mode=2
 
 # Audio
-ro.config.alarm_vol_steps=15
-ro.config.vc_call_vol_steps=15
-ro.config.media_vol_steps=15
-ro.config.notification_vol_steps=15
-ro.config.ring_vol_steps=15
+ro.config.alarm_vol_steps=10
+ro.config.vc_call_vol_steps=10
 
 # Bluetooth
 vendor.bluetooth.ldac.abr=true
@@ -143,7 +140,6 @@ ro.vendor.mtk_nn_quant_preferred=1
 ro.vendor.mtk_nn_support=1
 
 # OMX
-debug.stagefright.ccodec=1
 ro.vendor.mtk_config_max_dram_size=0x800000000
 ro.vendor.mtk_sec_video_path_support=1
 ro.vendor.mtk_tee_gp_support=1
