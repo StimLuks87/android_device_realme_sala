@@ -14,7 +14,7 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 # Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Priv Keys
 -include vendor/lineage-priv/keys/keys.mk
@@ -65,7 +65,6 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor:64 \
-    android.hardware.bluetooth@1.1.vendor:64 \
     android.hardware.bluetooth.audio-impl
 
 PRODUCT_COPY_FILES += \
